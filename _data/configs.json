@@ -1,7 +1,7 @@
 {
   "AdvMapShading": {
     "declarationFile": "/spring/rts/Map/SMF/SMFGroundDrawer.cpp",
-    "declarationLine": 43,
+    "declarationLine": 44,
     "description": "Enable shaders for terrain rendering.",
     "defaultValue": 1,
     "safemodeValue": 0,
@@ -24,7 +24,7 @@
   },
   "AllowDeferredMapRendering": {
     "declarationFile": "/spring/rts/Map/SMF/SMFGroundDrawer.cpp",
-    "declarationLine": 44,
+    "declarationLine": 45,
     "defaultValue": 0,
     "safemodeValue": 0,
     "type": "bool"
@@ -45,13 +45,13 @@
   },
   "AllowDrawMapDeferredEvents": {
     "declarationFile": "/spring/rts/Map/SMF/SMFGroundDrawer.cpp",
-    "declarationLine": 46,
+    "declarationLine": 47,
     "defaultValue": 0,
     "type": "bool"
   },
   "AllowDrawMapPostDeferredEvents": {
     "declarationFile": "/spring/rts/Map/SMF/SMFGroundDrawer.cpp",
-    "declarationLine": 45,
+    "declarationLine": 46,
     "defaultValue": 0,
     "type": "bool"
   },
@@ -77,14 +77,14 @@
   },
   "AlwaysSendDrawGroundEvents": {
     "declarationFile": "/spring/rts/Map/SMF/SMFGroundDrawer.cpp",
-    "declarationLine": 55,
+    "declarationLine": 56,
     "description": "Always send DrawGround{Pre,Post}{Forward,Deferred} events",
     "defaultValue": 0,
     "type": "bool"
   },
   "AtiHacks": {
     "declarationFile": "/spring/rts/Rendering/GlobalRendering.cpp",
-    "declarationLine": 57,
+    "declarationLine": 56,
     "description": "Enables graphics drivers workarounds for users with AMD proprietary drivers.\n -1:=runtime detect, 0:=off, 1:=on",
     "defaultValue": -1,
     "minimumValue": -1,
@@ -125,7 +125,7 @@
   },
   "BlockCompositing": {
     "declarationFile": "/spring/rts/Rendering/GlobalRendering.cpp",
-    "declarationLine": 69,
+    "declarationLine": 68,
     "description": "Disables kwin compositing to fix tearing, possible fixes low FPS in windowed mode, too.",
     "defaultValue": 0,
     "safemodeValue": 1,
@@ -433,7 +433,7 @@
   },
   "CompressTextures": {
     "declarationFile": "/spring/rts/Rendering/GlobalRendering.cpp",
-    "declarationLine": 60,
+    "declarationLine": 59,
     "description": "Runtime compress most textures to save VideoRAM.",
     "defaultValue": 0,
     "safemodeValue": 1,
@@ -479,21 +479,21 @@
   },
   "DebugGL": {
     "declarationFile": "/spring/rts/Rendering/GlobalRendering.cpp",
-    "declarationLine": 42,
+    "declarationLine": 41,
     "description": "Enables GL debug-context and output. (see GL_ARB_debug_output)",
     "defaultValue": 0,
     "type": "bool"
   },
   "DebugGLStacktraces": {
     "declarationFile": "/spring/rts/Rendering/GlobalRendering.cpp",
-    "declarationLine": 43,
+    "declarationLine": 42,
     "description": "Create a stacktrace when an OpenGL error occurs",
     "defaultValue": 0,
     "type": "bool"
   },
   "DefaultLuaMenu": {
     "declarationFile": "/spring/rts/Menu/LuaMenuController.cpp",
-    "declarationLine": 18,
+    "declarationLine": 16,
     "description": "Sets the default menu to be used when spring is started.",
     "defaultValue": "",
     "type": "std::string"
@@ -507,7 +507,7 @@
   },
   "DemoFromDemo": {
     "declarationFile": "/spring/rts/Game/PreGame.cpp",
-    "declarationLine": 60,
+    "declarationLine": 58,
     "defaultValue": 0,
     "type": "bool"
   },
@@ -542,14 +542,14 @@
   },
   "DualScreenMiniMapOnLeft": {
     "declarationFile": "/spring/rts/Rendering/GlobalRendering.cpp",
-    "declarationLine": 62,
+    "declarationLine": 61,
     "description": "When set, will make the left half of the screen the minimap when DualScreenMode is set.",
     "defaultValue": 0,
     "type": "bool"
   },
   "DualScreenMode": {
     "declarationFile": "/spring/rts/Rendering/GlobalRendering.cpp",
-    "declarationLine": 61,
+    "declarationLine": 60,
     "description": "Sets whether to split the screen in half, with one half for minimap and one for main screen. Right side is for minimap unless DualScreenMiniMapOnLeft is set.",
     "defaultValue": 0,
     "type": "bool"
@@ -614,13 +614,13 @@
   },
   "FSAA": {
     "declarationFile": "/spring/rts/Rendering/GlobalRendering.cpp",
-    "declarationLine": 80,
+    "declarationLine": 79,
     "deprecated": 1,
     "type": "bool"
   },
   "FSAALevel": {
     "declarationFile": "/spring/rts/Rendering/GlobalRendering.cpp",
-    "declarationLine": 81,
+    "declarationLine": 80,
     "deprecated": 1,
     "type": "int"
   },
@@ -670,7 +670,7 @@
   },
   "ForceCoreContext": {
     "declarationFile": "/spring/rts/Rendering/GlobalRendering.cpp",
-    "declarationLine": 55,
+    "declarationLine": 54,
     "defaultValue": 0,
     "minimumValue": 0,
     "maximumValue": 1,
@@ -678,7 +678,7 @@
   },
   "ForceDisableClipCtrl": {
     "declarationFile": "/spring/rts/Rendering/GlobalRendering.cpp",
-    "declarationLine": 51,
+    "declarationLine": 50,
     "defaultValue": 0,
     "minimumValue": 0,
     "maximumValue": 1,
@@ -686,7 +686,7 @@
   },
   "ForceDisableExplicitAttribLocs": {
     "declarationFile": "/spring/rts/Rendering/GlobalRendering.cpp",
-    "declarationLine": 50,
+    "declarationLine": 49,
     "defaultValue": 0,
     "minimumValue": 0,
     "maximumValue": 1,
@@ -694,7 +694,7 @@
   },
   "ForceDisableGL4": {
     "declarationFile": "/spring/rts/Rendering/GlobalRendering.cpp",
-    "declarationLine": 53,
+    "declarationLine": 52,
     "defaultValue": 0,
     "minimumValue": 0,
     "maximumValue": 1,
@@ -703,7 +703,7 @@
   },
   "ForceDisablePersistentMapping": {
     "declarationFile": "/spring/rts/Rendering/GlobalRendering.cpp",
-    "declarationLine": 49,
+    "declarationLine": 48,
     "defaultValue": 0,
     "minimumValue": 0,
     "maximumValue": 1,
@@ -711,13 +711,13 @@
   },
   "ForceDisableShaders": {
     "declarationFile": "/spring/rts/Rendering/GlobalRendering.cpp",
-    "declarationLine": 82,
+    "declarationLine": 81,
     "deprecated": 1,
     "type": "bool"
   },
   "ForceSwapBuffers": {
     "declarationFile": "/spring/rts/Rendering/GlobalRendering.cpp",
-    "declarationLine": 56,
+    "declarationLine": 55,
     "defaultValue": 1,
     "minimumValue": 0,
     "maximumValue": 1,
@@ -725,7 +725,7 @@
   },
   "Fullscreen": {
     "declarationFile": "/spring/rts/Rendering/GlobalRendering.cpp",
-    "declarationLine": 67,
+    "declarationLine": 66,
     "description": "Sets whether the game will run in fullscreen, as opposed to a window. For Windowed Fullscreen of Borderless Window, set this to 0, WindowBorderless to 1, and WindowPosX and WindowPosY to 0.",
     "defaultValue": 1,
     "headlessValue": 0,
@@ -740,7 +740,7 @@
   },
   "GLContextMajorVersion": {
     "declarationFile": "/spring/rts/Rendering/GlobalRendering.cpp",
-    "declarationLine": 45,
+    "declarationLine": 44,
     "defaultValue": 3,
     "minimumValue": 3,
     "maximumValue": 4,
@@ -748,7 +748,7 @@
   },
   "GLContextMinorVersion": {
     "declarationFile": "/spring/rts/Rendering/GlobalRendering.cpp",
-    "declarationLine": 46,
+    "declarationLine": 45,
     "defaultValue": 0,
     "minimumValue": 0,
     "maximumValue": 5,
@@ -785,7 +785,7 @@
   },
   "GroundDetail": {
     "declarationFile": "/spring/rts/Map/SMF/SMFGroundDrawer.cpp",
-    "declarationLine": 30,
+    "declarationLine": 31,
     "description": "Controls how detailed the map geometry will be. On lowered settings, cliffs may appear to be jagged or \"melting\".",
     "defaultValue": 60,
     "minimumValue": 4,
@@ -1015,13 +1015,13 @@
   },
   "LoadBadSaves": {
     "declarationFile": "/spring/rts/Game/PreGame.cpp",
-    "declarationLine": 61,
+    "declarationLine": 59,
     "defaultValue": 0,
     "type": "bool"
   },
   "LoadingMT": {
     "declarationFile": "/spring/rts/Game/LoadScreen.cpp",
-    "declarationLine": 46,
+    "declarationLine": 44,
     "description": "Experimental option to load the game in separate thread. Expect visual glitches, crashes and deadlocks",
     "defaultValue": 0,
     "safemodeValue": 0,
@@ -1029,7 +1029,7 @@
   },
   "LogClientData": {
     "declarationFile": "/spring/rts/Net/NetCommands.cpp",
-    "declarationLine": 43,
+    "declarationLine": 41,
     "defaultValue": 0,
     "type": "bool"
   },
@@ -1056,7 +1056,7 @@
   },
   "LuaGarbageCollectionMemLoadMult": {
     "declarationFile": "/spring/rts/Lua/LuaHandle.cpp",
-    "declarationLine": 59,
+    "declarationLine": 57,
     "defaultValue": 1.33,
     "minimumValue": 1,
     "maximumValue": 100,
@@ -1064,7 +1064,7 @@
   },
   "LuaGarbageCollectionRunTimeMult": {
     "declarationFile": "/spring/rts/Lua/LuaHandle.cpp",
-    "declarationLine": 60,
+    "declarationLine": 58,
     "description": "in milliseconds",
     "defaultValue": 5,
     "minimumValue": 1,
@@ -1094,7 +1094,7 @@
   },
   "MSAALevel": {
     "declarationFile": "/spring/rts/Rendering/GlobalRendering.cpp",
-    "declarationLine": 47,
+    "declarationLine": 46,
     "description": "Enables multisample anti-aliasing; 'level' is the number of samples used.",
     "defaultValue": 0,
     "minimumValue": 0,
@@ -1103,14 +1103,14 @@
   },
   "MapBorder": {
     "declarationFile": "/spring/rts/Map/SMF/SMFGroundDrawer.cpp",
-    "declarationLine": 36,
+    "declarationLine": 37,
     "description": "Draws a solid border at the edges of the map.",
     "defaultValue": 1,
     "type": "bool"
   },
   "MaxDynamicMapLights": {
     "declarationFile": "/spring/rts/Map/SMF/SMFGroundDrawer.cpp",
-    "declarationLine": 39,
+    "declarationLine": 40,
     "defaultValue": 1,
     "minimumValue": 0,
     "type": "int"
@@ -1136,6 +1136,14 @@
     "defaultValue": 10000,
     "minimumValue": 0,
     "headlessValue": 0,
+    "type": "int"
+  },
+  "MaxPathCostsMemoryFootPrint": {
+    "declarationFile": "/spring/rts/Sim/Path/Default/PathEstimator.cpp",
+    "declarationLine": 37,
+    "description": "Maximum memusage (in MByte) of multithreaded pathcache generator at loading time.",
+    "defaultValue": 512,
+    "minimumValue": 64,
     "type": "int"
   },
   "MaxSounds": {
@@ -1288,7 +1296,7 @@
   },
   "MinimizeOnFocusLoss": {
     "declarationFile": "/spring/rts/Rendering/GlobalRendering.cpp",
-    "declarationLine": 65,
+    "declarationLine": 64,
     "description": "When set to 1 minimize Window if it loses key focus when in fullscreen mode.",
     "defaultValue": 0,
     "minimumValue": 0,
@@ -1389,8 +1397,8 @@
     "type": "float"
   },
   "PathingThreadCount": {
-    "declarationFile": "/spring/rts/Sim/Path/QTPFS/PathManager.cpp",
-    "declarationLine": 38,
+    "declarationFile": "/spring/rts/Sim/Path/Default/PathEstimator.cpp",
+    "declarationLine": 36,
     "defaultValue": 0,
     "minimumValue": 0,
     "safemodeValue": 1,
@@ -1412,7 +1420,7 @@
   },
   "ROAM": {
     "declarationFile": "/spring/rts/Map/SMF/SMFGroundDrawer.cpp",
-    "declarationLine": 49,
+    "declarationLine": 50,
     "description": "Use ROAM for terrain mesh rendering: 0 to disable, 1=VBO mode to enable.",
     "defaultValue": 1,
     "minimumValue": 0,
@@ -1435,7 +1443,7 @@
   },
   "RendererHash": {
     "declarationFile": "/spring/rts/Rendering/GlobalRendering.cpp",
-    "declarationLine": 79,
+    "declarationLine": 78,
     "deprecated": 1,
     "type": "int"
   },
@@ -1718,7 +1726,7 @@
   },
   "TeamNanoSpray": {
     "declarationFile": "/spring/rts/Rendering/GlobalRendering.cpp",
-    "declarationLine": 63,
+    "declarationLine": 62,
     "defaultValue": 1,
     "headlessValue": 0,
     "type": "bool"
@@ -1927,21 +1935,21 @@
   },
   "WindowBorderless": {
     "declarationFile": "/spring/rts/Rendering/GlobalRendering.cpp",
-    "declarationLine": 68,
+    "declarationLine": 67,
     "description": "When set and Fullscreen is 0, will put the game in Borderless Window mode, also known as Windowed Fullscreen. When using this, it is generally best to also set WindowPosX and WindowPosY to 0",
     "defaultValue": 0,
     "type": "bool"
   },
   "WindowPosX": {
     "declarationFile": "/spring/rts/Rendering/GlobalRendering.cpp",
-    "declarationLine": 75,
+    "declarationLine": 74,
     "description": "Sets the horizontal position of the game window, if Fullscreen is 0. When WindowBorderless is set, this should usually be 0.",
     "defaultValue": 0,
     "type": "int"
   },
   "WindowPosY": {
     "declarationFile": "/spring/rts/Rendering/GlobalRendering.cpp",
-    "declarationLine": 76,
+    "declarationLine": 75,
     "description": "Sets the vertical position of the game window, if Fullscreen is 0. When WindowBorderless is set, this should usually be 0.",
     "defaultValue": 32,
     "type": "int"
@@ -1964,7 +1972,7 @@
   },
   "XResolution": {
     "declarationFile": "/spring/rts/Rendering/GlobalRendering.cpp",
-    "declarationLine": 71,
+    "declarationLine": 70,
     "description": "Sets the width of the game screen. If set to 0 Spring will autodetect the current resolution of your desktop.",
     "defaultValue": 0,
     "minimumValue": 0,
@@ -1973,7 +1981,7 @@
   },
   "XResolutionWindowed": {
     "declarationFile": "/spring/rts/Rendering/GlobalRendering.cpp",
-    "declarationLine": 73,
+    "declarationLine": 72,
     "description": "See XResolution, just for windowed.",
     "defaultValue": 0,
     "minimumValue": 0,
@@ -1982,7 +1990,7 @@
   },
   "YResolution": {
     "declarationFile": "/spring/rts/Rendering/GlobalRendering.cpp",
-    "declarationLine": 72,
+    "declarationLine": 71,
     "description": "Sets the height of the game screen. If set to 0 Spring will autodetect the current resolution of your desktop.",
     "defaultValue": 0,
     "minimumValue": 0,
@@ -1991,7 +1999,7 @@
   },
   "YResolutionWindowed": {
     "declarationFile": "/spring/rts/Rendering/GlobalRendering.cpp",
-    "declarationLine": 74,
+    "declarationLine": 73,
     "description": "See YResolution, just for windowed.",
     "defaultValue": 0,
     "minimumValue": 0,

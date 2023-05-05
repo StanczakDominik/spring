@@ -62,7 +62,7 @@
       "content_type": "binary/octet-stream",
       "state": "uploaded",
       "size": 662,
-      "download_count": 3,
+      "download_count": 5,
       "created_at": "2023-02-18T20:36:44Z",
       "updated_at": "2023-02-18T20:36:44Z",
       "browser_download_url": "https://github.com/beyond-all-reason/spring/releases/download/spring_bar_%7BBAR105%7D105.1.1-1544-g058c8ea/buildoptions_linux-64.txt"
@@ -96,7 +96,7 @@
       "content_type": "binary/octet-stream",
       "state": "uploaded",
       "size": 551,
-      "download_count": 3,
+      "download_count": 6,
       "created_at": "2023-02-18T20:36:44Z",
       "updated_at": "2023-02-18T20:36:45Z",
       "browser_download_url": "https://github.com/beyond-all-reason/spring/releases/download/spring_bar_%7BBAR105%7D105.1.1-1544-g058c8ea/buildoptions_windows-64.txt"
@@ -130,7 +130,7 @@
       "content_type": "binary/octet-stream",
       "state": "uploaded",
       "size": 16976427,
-      "download_count": 830,
+      "download_count": 4147,
       "created_at": "2023-02-18T20:36:45Z",
       "updated_at": "2023-02-18T20:36:46Z",
       "browser_download_url": "https://github.com/beyond-all-reason/spring/releases/download/spring_bar_%7BBAR105%7D105.1.1-1544-g058c8ea/spring_bar_.BAR105.105.1.1-1544-g058c8ea_linux-64-minimal-portable.7z"
@@ -164,7 +164,7 @@
       "content_type": "binary/octet-stream",
       "state": "uploaded",
       "size": 407813530,
-      "download_count": 3,
+      "download_count": 16,
       "created_at": "2023-02-18T20:36:46Z",
       "updated_at": "2023-02-18T20:36:54Z",
       "browser_download_url": "https://github.com/beyond-all-reason/spring/releases/download/spring_bar_%7BBAR105%7D105.1.1-1544-g058c8ea/spring_bar_.BAR105.105.1.1-1544-g058c8ea_linux-64-minimal-symbols.tgz"
@@ -198,7 +198,7 @@
       "content_type": "binary/octet-stream",
       "state": "uploaded",
       "size": 16499276,
-      "download_count": 6563,
+      "download_count": 64996,
       "created_at": "2023-02-18T20:36:54Z",
       "updated_at": "2023-02-18T20:36:55Z",
       "browser_download_url": "https://github.com/beyond-all-reason/spring/releases/download/spring_bar_%7BBAR105%7D105.1.1-1544-g058c8ea/spring_bar_.BAR105.105.1.1-1544-g058c8ea_windows-64-minimal-portable.7z"
@@ -232,7 +232,7 @@
       "content_type": "binary/octet-stream",
       "state": "uploaded",
       "size": 435054551,
-      "download_count": 2,
+      "download_count": 6,
       "created_at": "2023-02-18T20:36:55Z",
       "updated_at": "2023-02-18T20:37:04Z",
       "browser_download_url": "https://github.com/beyond-all-reason/spring/releases/download/spring_bar_%7BBAR105%7D105.1.1-1544-g058c8ea/spring_bar_.BAR105.105.1.1-1544-g058c8ea_windows-64-minimal-symbols.tgz"
